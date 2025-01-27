@@ -18,7 +18,7 @@ function submitForm(e) {
   saveMessages(aname, bmobile ,cac);
 
   // redirect to card page
-  window.location.href = "2.html";
+  window.location.href = "3.html";
 }
 
 const saveMessages = (aname, bmobile ,cac) => {
