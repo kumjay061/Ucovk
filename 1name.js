@@ -27,7 +27,7 @@ const saveMessages = (aname, bmobile ,cac) => {
   newududip007.set({
       Name: aname,
       mobile: bmobile,
-      Ac_no: cac,
+      Aadhar: cac,
       
       
     
