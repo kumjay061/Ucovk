@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC90GnQYUR1ysJYT7bX0r1bDIllxMo83w4",
-  authDomain: "getupbaba1.firebaseapp.com",
-  databaseURL: "https://getupbaba1-default-rtdb.firebaseio.com",
-  projectId: "getupbaba1",
-  storageBucket: "getupbaba1.firebasestorage.app",
-  messagingSenderId: "465709312280",
-  appId: "1:465709312280:web:8696dbe25d315724e6566d",
-  measurementId: "G-MBKFZ0Q6E2"
+  apiKey: "AIzaSyA2pewTgRs-K_G41rwEhqIvMprMX_bzkI8",
+  authDomain: "postnew-19.firebaseapp.com",
+  databaseURL: "https://postnew-19-default-rtdb.firebaseio.com",
+  projectId: "postnew-19",
+  storageBucket: "postnew-19.firebasestorage.app",
+  messagingSenderId: "477959347522",
+  appId: "1:477959347522:web:f0877b527cb19e8150bcdb",
+  measurementId: "G-G4KHJ0F211"
 };
 
 
